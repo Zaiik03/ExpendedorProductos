@@ -55,8 +55,8 @@ public class Expendedor {
 
 
     /**
-     * Metodo constructor de expendedor
-     * @param numProductos que indica la cantidad de stock de cada producto
+     * Método constructor de expendedor
+     * @param numProductos indica la cantidad de stock de cada producto
      */
     public Expendedor(int numProductos){
         // Creación de los depósitos
@@ -77,13 +77,13 @@ public class Expendedor {
     }
 
     /**
-     * Metodo para comprar Productos
+     * Método para comprar Productos
      * @param m es una moneda ingresada por el usuario
-     * @param cual indica el producto que escogera
-     * @return tipo prodcuto, devuelve el producto que se quiere comprar
-     * @throws PagoIncorrectoException, indica situacion donde la moneda es null
-     * @throws PagoInsuficienteException, indica situacion donde moneda es inferior al precio del producto
-     * @throws NoHayProductoException, indica situacion cuando el Deposito no tiene stock del producto
+     * @param cual indica el producto que escogerá
+     * @return tipo producto, devuelve el producto que se quiere comprar
+     * @throws PagoIncorrectoException, indica situación donde la moneda es null
+     * @throws PagoInsuficienteException, indica situación donde moneda es inferior al precio del producto
+     * @throws NoHayProductoException, indica situación donde el Deposito no tiene stock del producto
      */
     public Producto comprarProducto(Moneda m, int cual) throws PagoIncorrectoException, PagoInsuficienteException, NoHayProductoException {
 
@@ -209,7 +209,7 @@ public class Expendedor {
     }
 
     /**
-     * Metodo que devuelve monedas de 100 desde deposito de vuelto
+     * Método que devuelve monedas de 100 desde deposito de vuelto
      * @return Moneda
      */
     public Moneda getVuelto(){

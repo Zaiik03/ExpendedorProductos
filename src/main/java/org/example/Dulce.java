@@ -1,4 +1,4 @@
-package org.example;
+package ExpendedorProductos.src.main.java.org.example;
 
 abstract public class Dulce extends Producto {
     /** Constructor de la Clase Dulce

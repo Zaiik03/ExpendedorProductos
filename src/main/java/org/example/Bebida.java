@@ -1,4 +1,4 @@
-package org.example;
+package ExpendedorProductos.src.main.java.org.example;
 
 abstract class Bebida extends Producto {
     /** Constructor el cual recibe una serie unica

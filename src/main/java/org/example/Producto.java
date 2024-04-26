@@ -1,4 +1,4 @@
-package org.example;
+package ExpendedorProductos.src.main.java.org.example;
 
 /**
  * Clase abstracta que define las características generales de cada producto

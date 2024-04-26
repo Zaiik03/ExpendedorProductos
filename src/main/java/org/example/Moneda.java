@@ -1,4 +1,4 @@
-package ExpendedorProductos.src.main.java.org.example;
+package org.example;
 
 /** Esta clase representa las monedas que usa el comprador en la expendedora.
  */

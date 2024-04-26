@@ -17,9 +17,9 @@ public class Comprador {
      * @param m es la moneda que el usuario ingresa
      * @param cualProducto selecciona el producto qe quieres comprar
      * @param exp es el Expendedor del cual sacaremos los productos
-     * @throws Tarea1.src.PagoIncorrectoException es la exception en el caso de que pague con una moneda nula
-     * @throws Tarea1.src.PagoInsuficienteException es la exception en el caso de que el precio no sea el suficiente
-     * @throws Tarea1.src.NoHayProductoException caso donde no hay stock
+     * @throws PagoIncorrectoException es la exception en el caso de que pague con una moneda nula
+     * @throws PagoInsuficienteException es la exception en el caso de que el precio no sea el suficiente
+     * @throws NoHayProductoException caso donde no hay stock
      */
     public Comprador(Moneda m, int cualProducto, Expendedor exp) throws PagoIncorrectoException, PagoInsuficienteException, NoHayProductoException{
         Producto b = exp.comprarProducto(m, cualProducto);

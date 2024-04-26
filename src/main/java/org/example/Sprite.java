@@ -1,5 +1,8 @@
-package ExpendedorProductos.src.main.java.org.example;
+package org.example;
 
+/**
+ * Clase de Producto Sprite
+ */
 public class Sprite extends Bebida {
     /** Constructor de Bebida el cual recibe un valor numero que es su serie
      * @param serie numero identificador

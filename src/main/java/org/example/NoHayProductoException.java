@@ -1,7 +1,7 @@
 package org.example;
 
 /**
- * Clase que extiende Excetion para manejar cuando no hay stock de productos
+ * Clase que extiende Exception para manejar cuando no hay stock de productos
  */
 public class NoHayProductoException extends Exception{
     /**

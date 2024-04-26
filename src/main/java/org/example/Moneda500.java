@@ -1,7 +1,9 @@
-package ExpendedorProductos.src.main.java.org.example;
+package org.example;
 
-import Tarea1.src.Moneda;
 
+/**
+ * Clase Moneda 500
+ */
 public class Moneda500 extends Moneda {
     /** Constructor por defecto
      * super() para inicializar

@@ -81,9 +81,9 @@ public class Expendedor {
      * @param m es una moneda ingresada por el usuario
      * @param cual indica el producto que escogera
      * @return tipo prodcuto, devuelve el producto que se quiere comprar
-     * @throws Tarea1.src.PagoIncorrectoException, indica situacion donde la moneda es null
-     * @throws Tarea1.src.PagoInsuficienteException, indica situacion donde moneda es inferior al precio del producto
-     * @throws Tarea1.src.NoHayProductoException, indica situacion cuando el Deposito no tiene stock del producto
+     * @throws PagoIncorrectoException, indica situacion donde la moneda es null
+     * @throws PagoInsuficienteException, indica situacion donde moneda es inferior al precio del producto
+     * @throws NoHayProductoException, indica situacion cuando el Deposito no tiene stock del producto
      */
     public Producto comprarProducto(Moneda m, int cual) throws PagoIncorrectoException, PagoInsuficienteException, NoHayProductoException {
 

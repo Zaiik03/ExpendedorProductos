@@ -1,5 +1,8 @@
-package ExpendedorProductos.src.main.java.org.example;
+package org.example;
 
+/**
+ * Clase de Producto CocaCola
+ */
 public class CocaCola extends Bebida {
     /** Constructor de Bebida el cual recibe un valor numero que es su serie
      * @param serie numerico identificador

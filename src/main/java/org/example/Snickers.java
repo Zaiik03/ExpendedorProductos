@@ -1,5 +1,8 @@
-package ExpendedorProductos.src.main.java.org.example;
+package org.example;
 
+/**
+ * Clase de Producto Snickers
+ */
 public class Snickers extends Dulce {
     /**
      * Constructor Snickers

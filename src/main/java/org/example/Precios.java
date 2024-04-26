@@ -1,4 +1,4 @@
-package ExpendedorProductos.src.main.java.org.example;
+package org.example;
 
 /**
  * Enum encargada de los precios de los productos

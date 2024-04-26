@@ -1,4 +1,7 @@
-package ExpendedorProductos.src.main.java.org.example;
+package org.example;
+/**
+ *Clase de Producto Super8
+ */
 
 public class Super8 extends Dulce {
     /**

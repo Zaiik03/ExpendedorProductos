@@ -1,5 +1,8 @@
-package ExpendedorProductos.src.main.java.org.example;
+package org.example;
 
+/**
+ * Clase abstracta Dulce
+ */
 abstract public class Dulce extends Producto {
     /** Constructor de la Clase Dulce
      * @param serie que es el identificador

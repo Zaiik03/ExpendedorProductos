@@ -1,5 +1,12 @@
 package org.example;
 
+/**
+ * Proyecto Expendedor y Comprador en Java
+ * @author Matias Garcias Padilla
+ * @author Oliver Peñailillo Sanzana
+ * @author Javier Campos Contreras
+ * @version 2024-04-26
+ */
 public class Main {
     public static void main(String[] args) {
         Expendedor exp = new Expendedor(10);

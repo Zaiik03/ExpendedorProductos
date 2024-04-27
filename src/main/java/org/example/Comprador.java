@@ -14,28 +14,28 @@ public class Comprador {
     private int vuelto;
     /**
      * Metodo constructor del Comprador
-     * @param m es la moneda que el usuario ingresa
+     * @param monedaCompra es la moneda que el usuario ingresa
      * @param cualProducto selecciona el producto qe quieres comprar
      * @param exp es el Expendedor del cual sacaremos los productos
      * @throws PagoIncorrectoException es la exception en el caso de que pague con una moneda nula
      * @throws PagoInsuficienteException es la exception en el caso de que el precio no sea el suficiente
      * @throws NoHayProductoException caso donde no hay stock
      */
-    public Comprador(Moneda m, int cualProducto, Expendedor exp) throws PagoIncorrectoException, PagoInsuficienteException, NoHayProductoException{
-        Producto b = exp.comprarProducto(m, cualProducto);
+    public Comprador(Moneda monedaCompra, int cualProducto, Expendedor exp) throws PagoIncorrectoException, PagoInsuficienteException, NoHayProductoException{
+        Producto producto = exp.comprarProducto(monedaCompra, cualProducto);
         while(true){
-            Moneda aux = exp.getVuelto();
-            if(aux == null){
+            Moneda moneda = exp.getVuelto();
+            if(moneda == null){
                 break;
             } else{
-                vuelto += aux.getValor();
+                vuelto += moneda.getValor();
             }
         }
 
-        if(b == null){
+        if(producto == null){
             sonido = null;
         } else{
-            sonido = b.getConsumir();
+            sonido = producto.getConsumir();
         }
 
     }

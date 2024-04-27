@@ -9,7 +9,7 @@ public class Deposito<T> {
     /**
      * Array que almacenara los productos
      */
-    private ArrayList<T> arr; // Creamos un array que almacenara los Productos
+    private ArrayList<T> arr; // Creamos un array que almacenara los Productos / Monedas
 
     /**
      * Metodo Constructor de Deposito
@@ -30,8 +30,8 @@ public class Deposito<T> {
     }
     /** Metodo encargado de agregar los productos al deposito
      */
-    public void addProducto(T pe){
-        arr.add(pe); // Agregamos el producto
+    public void addProducto(T elemento){
+        arr.add(elemento); // Agregamos el producto
     }
 
     /**

@@ -12,9 +12,9 @@ public class Main {
         Expendedor exp = new Expendedor(10);
 
         for(int i = 0;i < 20;i++){
-            Moneda m = new Moneda1000();
+            Moneda m = new Moneda100();
             try{
-                Comprador c =  new Comprador(m, Expendedor.COCA, exp);
+                Comprador c =  new Comprador(m, Expendedor.SNICKERS, exp);
                 System.out.println(c.queConsumiste()+", " + c.cuantoVuelto());
             } catch (PagoIncorrectoException a){
                 System.out.println("Error de tipo pago: " + a.getMessage());

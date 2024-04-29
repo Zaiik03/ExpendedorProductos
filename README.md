@@ -7,6 +7,7 @@ Integrantes:
 
 
 Algunas observaciones:
+  * La clase Main, junto con todas las clases se encuentran en src/main/java/org/example.
   * Todos los productos disponibles, es decir, CocaCola, Sprite, Fanta, Snickers y Super8 están enumerados del 1 al 5, respectivamente. Además, dado que están asignados como variables estáticas dentro de la clase Expendedor, también se pueden
 elegir accediendo directamente. Ejemplo: Expendedor.COCA. 
   * Los precios están definidos de la siguiente forma:
